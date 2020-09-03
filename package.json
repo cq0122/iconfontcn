@@ -1,0 +1,31 @@
+{
+  "name": "iconfontcn",
+  "version": "1.0.0",
+  "description": "Kiss Iconfont",
+  "main": "lib/index.js",
+  "scripts": {
+    "uglify-js": "uglifyjs lib/index.js -o lib/index.js",
+    "babel-js": "babel index.js -o lib/index.js",
+    "build": "npm-run-all babel-js uglify-js"
+  },
+  "keywords": [
+    "iconfont",
+    "font-class引用",
+    "symbol引用"
+  ],
+  "author": "cq0122",
+  "homepage": "https://github.com/cq0122/iconfontcn",
+  "bugs": {
+    "url": "https://github.com/cq0122/iconfontcn/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4"
+  },
+  "dependencies": {
+    "react": "^16.0.0"
+  }
+}
