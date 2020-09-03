@@ -8,7 +8,7 @@
     "babel-js": "babel index.js -o lib/index.js",
     "build": "npm-run-all babel-js uglify-js",
     "prenpmjs": "rm -rf npmjs && mkdir npmjs && cd npmjs && mkdir lib",
-    "npmjs": "cp {LICENSE,README.md,package.json} ./npmjs/ && cp ./lib/index.js ./npmjs/lib/"
+    "npmjs": "cp {LICENSE,README.md,package.json} npmjs/ && cp lib/index.js npmjs/lib/"
   },
   "keywords": [
     "iconfont",
