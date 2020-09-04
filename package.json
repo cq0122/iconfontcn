@@ -21,6 +21,12 @@
     "url": "https://github.com/cq0122/iconfontcn/issues"
   },
   "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "devDependencies": {
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.5",
